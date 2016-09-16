@@ -1,0 +1,19 @@
+body{
+    
+font-family: PT Sans Pro,sans-serif 
+
+ }
+ h1{
+     font-size:200%
+     
+     
+ }
+ h2{
+     font-size:175%
+ }
+ h3{
+     font-size:150%
+ }
+ p::first-letter{
+     font-size:300%
+ }
