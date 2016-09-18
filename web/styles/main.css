@@ -24,7 +24,7 @@ font-family: PT Sans Pro,sans-serif
   
   background-color: green ;
 } 
-img {
+pa {
     float: left;
    
 }
@@ -73,8 +73,14 @@ header{
  
   background: linear-gradient(-45deg, black,orange, white); 
 }
-p,h4,h2{
+p,h4,h2,ca{
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 200px;
     
+}
+sidebar{
+    width :160px;
+    float:left;
+     
+ 
 }
