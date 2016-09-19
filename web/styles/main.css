@@ -4,37 +4,41 @@ font-family: PT Sans Pro,sans-serif
 
  }
  h1{
-    font-size:200%
-     
-    
+    font-size:200% 
  }
+ 
  h2{
      font-size:175%
  }
+ 
  h3{
      font-size:150%
  }
+ 
  h2::first-letter{
      font-size:300%
  }
  h4{
      font-size:150%
  }
+ 
+ a{
+     color: orange
+ }
+ 
  a:hover {
   
-  background-color: green ;
+  color: green ;
 } 
-pa {
-    float: left;
-   
-}
+
 h1,h3 {
     text-indent: 50px;
 }
+
 li{
     margin: 1em 0;
+   }
    
-}
 body {
    width: 800px;
    margin-left: auto;
@@ -45,42 +49,36 @@ body {
   -moz-box-shadow:    3px 3px 5px 6px black;
   -webkit-box-shadow: 3px 3px 5px 6px black;
   box-shadow:         3px 3px 5px 6px black;
+ }
  
-
-}
 html{
+    
     background-image: url(../images/bats.gif);
     background-repeat: repeat;
     background-color: white
-       
-        }
-
+}
   
-
 footer{
-    
-    border-top: 3px solid black;
-   
-  background: orange; 
- 
-  background: linear-gradient(-45deg, white,orange, black); 
-  
+   background: orange; 
+   background: linear-gradient(-45deg, white,orange, black); 
+   border-top: 3px solid black;
+   text-align: center 
+}
 
-}
 header{
+    background: linear-gradient(-45deg, black,orange, white); 
+    background: orange; 
     border-bottom:3px solid black;
-     background: orange; 
- 
-  background: linear-gradient(-45deg, black,orange, white); 
 }
-p,h4,h2,ca{
-    margin-right: 10px;
+
+p,h4,h2{
     margin-left: 200px;
-    
-}
-sidebar{
-    width :160px;
+    margin-right: 10px;
+    }
+
+nav#sidbar{
     float:left;
-     
- 
-}
+    width :160px;
+    }
+
+
