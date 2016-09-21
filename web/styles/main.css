@@ -23,7 +23,7 @@ font-family: PT Sans Pro,sans-serif
  }
  
  a{
-     color: orange
+     color: black
  }
  
  a:hover {
@@ -31,14 +31,39 @@ font-family: PT Sans Pro,sans-serif
   color: green ;
 } 
 
-h1,h3 {
+h1,
+h3 {
     text-indent: 50px;
 }
-
+ul{
+    border:1px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
 li{
     margin: 1em 0;
+      
+     
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
    }
+   li a{
+    display: block;
    
+    padding: 8px 16px;
+    text-decoration: none;
+       
+   }
+   li:frist-child{
+       margin-top: 0;
+   }
+   li:last-child{
+   margin-bottom: 0;
 body {
    width: 800px;
    margin-left: auto;
@@ -71,7 +96,9 @@ header{
     border-bottom:3px solid black;
 }
 
-p,h4,h2{
+p,
+h4,
+h2{
     margin-left: 200px;
     margin-right: 10px;
     }
@@ -79,6 +106,12 @@ p,h4,h2{
 nav#sidbar{
     float:left;
     width :160px;
+    display: block;
+    
     }
-
+nav#top{
+    display: inline;
+    border-top: 3px solid black;
+    border-bottom:3px solid black;   
+    }
 
