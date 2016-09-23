@@ -3,33 +3,13 @@ body{
 font-family: PT Sans Pro,sans-serif 
 
  }
- h1{
-    font-size:200% 
- }
  
- h2{
-     font-size:175%
- }
- 
- h3{
-     font-size:150%
- }
- 
- h2::first-letter{
-     font-size:300%
- }
- h4{
-     font-size:150%
- }
  
  a{
      color: black
  }
  
- a:hover {
-  
-  color: green ;
-} 
+
 
 h1,
 h3 {
@@ -67,6 +47,7 @@ h3 {
 }
 body {
    width: 800px;
+  height: 850px;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 0;
@@ -92,7 +73,9 @@ footer{
    background: orange; 
    background: linear-gradient(-45deg, white,orange, black); 
    border-top: 3px solid black;
-   text-align: center 
+   text-align: center;
+   margin-top: 550px;
+   
 }
 
 header{
@@ -101,9 +84,9 @@ header{
     border-bottom:3px solid black;
 }
 
-p,
-h4,
-h2{
+p
+
+{
     margin-left: 200px;
     margin-right: 10px;
     }
@@ -137,7 +120,7 @@ nav#top{
 }
 .topper li {
     float: left;
-    
+    background-color: black;
     width: 20%;
        display: inline;  
 }
