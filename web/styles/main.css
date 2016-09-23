@@ -35,35 +35,36 @@ h1,
 h3 {
     text-indent: 50px;
 }
-ul{
-    border:1px solid black;
+
+ .sidbar ul{
+  
     list-style-type: none;
     margin: 0;
     padding: 0;
    
 }
-li{
+
+ .sidbar li{
     margin: 1em 0;
       
-     
+     border: 1px solid black;
     width: 200px;
     background-color: orange;
-    text-align: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+
+    
    }
-   li a{
+
+   .sidbar li a{
     display: block;
    
     padding: 8px 16px;
     text-decoration: none;
        
    }
-   li:frist-child{
+   .sidbar li:frist-child{
        margin-top: 0;
-   }
-   li:last-child{
-   margin-bottom: 0;
+   
+}
 body {
    width: 800px;
    margin-left: auto;
@@ -110,8 +111,35 @@ nav#sidbar{
     
     }
 nav#top{
+   
     display: inline;
     border-top: 3px solid black;
     border-bottom:3px solid black;   
+    float: top;
+    
     }
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+.topper li {
+    float: left;
+}
+
+.topper li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.topper li a:hover {
+    background-color: #111;
+}
