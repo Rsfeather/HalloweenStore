@@ -119,27 +119,31 @@ nav#top{
     
     }
     
-ul {
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    
 }
-
+.topper ul{
+    background-color: black;
+     display: inline;
+    
+}
 .topper li {
     float: left;
+    background-color: black;
+    width: 20%;
+       display: inline;  
 }
 
 .topper li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+   text-align: center;
+    padding: 10px 10px;
     text-decoration: none;
+    
 }
 
-/* Change the link color to #111 (black) on hover */
-.topper li a:hover {
-    background-color: #111;
-}
