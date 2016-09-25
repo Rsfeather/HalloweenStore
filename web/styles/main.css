@@ -92,7 +92,8 @@ footer{
    background: orange; 
    background: linear-gradient(-45deg, white,orange, black); 
    border-top: 3px solid black;
-   text-align: center 
+   text-align: center; 
+     
 }
 
 header{
@@ -131,13 +132,13 @@ nav#top{
     
 }
 .topper ul{
-    background-color: black;
+   
      display: inline;
     
 }
 .topper li {
     float: left;
-    
+     background-color: black;
     width: 20%;
        display: inline;  
 }
