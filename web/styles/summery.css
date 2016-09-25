@@ -3,24 +3,9 @@ body{
 font-family: PT Sans Pro,sans-serif 
 
  }
- h1{
-    font-size:200% 
- }
+
  
- h2{
-     font-size:175%
- }
  
- h3{
-     font-size:150%
- }
- 
- h2::first-letter{
-     font-size:300%
- }
- h4{
-     font-size:150%
- }
  
  a{
      color: black
@@ -31,10 +16,7 @@ font-family: PT Sans Pro,sans-serif
   color: green ;
 } 
 
-h1,
-h3 {
-    text-indent: 50px;
-}
+
 
  .sidbar ul{
   
@@ -102,12 +84,7 @@ header{
     border-bottom:3px solid black;
 }
 
-p,
-h4,
-h2{
-    margin-left: 200px;
-    margin-right: 10px;
-    }
+
 
 nav#sidbar{
     float:left;
@@ -161,6 +138,23 @@ section#catright{
 Img#cat{
     float:left
 }
-b#h{
+b#p{
     color:orange;
+}
+.color{
+    background-color: tan;
+    text-align:right;
+}
+.t{
+    
+    vertical-align: top;
+    text-align:left;
+}
+h2,
+table{
+    text-align: center;
+    
+}
+.left{
+    text-align: left;
 }
