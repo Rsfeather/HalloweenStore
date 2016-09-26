@@ -3,8 +3,6 @@ body{
 font-family: PT Sans Pro,sans-serif 
 
  }
-
- 
  
  
  a{
@@ -84,7 +82,12 @@ header{
     border-bottom:3px solid black;
 }
 
-
+p,
+h4,
+h2{
+    margin-left: 200px;
+    margin-right: 10px;
+    }
 
 nav#sidbar{
     float:left;
@@ -135,33 +138,14 @@ section#catright{
   background-color: #F5DEB3;
     
 }
-Img#cat{
-    float:left
-}
-b#p{
+
+b#h{
     color:orange;
-}
-.color{
-    background-color: tan;
-    text-align:right;
-}
-.t{
-    
-    vertical-align: top;
-    text-align:left;
-}
-h2,
-table{
-    text-align: center;
-    width:600px;
-    
-}
-.left{
-    text-align: left;
-}
-h1{
-    margin-top: 0px;
 }
 p{
     margin-bottom: 0px;
+}
+h1{
+    margin-top: 0px;
+    
 }

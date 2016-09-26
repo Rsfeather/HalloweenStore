@@ -4,7 +4,8 @@ font-family: PT Sans Pro,sans-serif
 
  }
  h1{
-    font-size:200% 
+    font-size:200%;
+       margin-top: 0px;
  }
  
  h2{
@@ -163,4 +164,7 @@ Img#cat{
 }
 b#h{
     color:orange;
+}
+p{
+    margin-bottom: 0px;
 }
