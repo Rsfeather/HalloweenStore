@@ -171,25 +171,34 @@ p{
 }
 @media  (max-width: 800px){
    html{ background-image: none;}
+   body{
+       border-style: none;
     font-size: 90%;
 }
+}
 @media  (max-width: 767px){
-    .js #top{
-        display: none;
-        
+   
+    nav#sidbar{
+     margin-top: 80%;
+     margin-right:50%;
+   
+   
+   
     }
-    .js .slicknav_menu{display:block;
-    }
-    nav.sidbar{
-        float: bottom;
-      float: center;
-    }
+    
 }
 @media  (max-width: 479px){
-    header{
-        font-size: 70%
+    h1{
+        font-size: 90%
     }
-    
-    
+    h2{
+         font-size: 90%
+    }
+    h3{
+         font-size: 90%
+    }
+    h4{
+         font-size: 90%
+    }
     
 }

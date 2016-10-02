@@ -47,7 +47,7 @@ font-family: PT Sans Pro,sans-serif
 }
 body {
    width: 800px;
-   
+   height:  600px;
    margin-left: auto;
    margin-right: auto;
    margin-bottom: auto;
@@ -75,6 +75,7 @@ footer{
    background: linear-gradient(-45deg, white,orange, black); 
    border-top: 3px solid black;
    text-align: center; 
+   margin-top: 380px;
      
 }
 
