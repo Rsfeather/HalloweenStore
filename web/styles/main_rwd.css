@@ -106,14 +106,16 @@ header{
 p,
 h4,
 h2{
-    margin-left: 200px;
+    
     margin-right: 10px;
+    margin-left: 10px;
     }
 
 nav#sidbar{
     float:left;
     width :160px;
     display: block;
+    height: 700px;
     
     }
 nav#top{
@@ -132,12 +134,12 @@ nav#top{
     overflow: hidden;
     
 }
-.topper ul{
+.topper  ul{
    
      display: inline;
     
 }
-.topper li {
+.topper  li {
     float: left;
      background-color: black;
     width: 20%;
@@ -154,7 +156,9 @@ nav#top{
 }
 
 Img#cat{
-    float:left
+    float:left;
+    max-width: 156px;
+    width: 100%
 }
 b#h{
     color:orange;
@@ -162,28 +166,66 @@ b#h{
 p{
     margin-bottom: 0px;
 }
+#small{
+    display: none;
+    float: right;
+    width: 100%;
+}
+#small  li {
+    float: left;
+     background-color: black;
+    width: 100%;
+       display: inline;  
+}
+#small li a {
+    display: block;
+    color: white;
+   text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    float: right;
+    
+}
+#small  ul{
+   
+     display: inline;
+    
+}
+#bottom{
+    display: none;
+    margin-left: 40%;
+   
+   
+   
+}
 @media  (max-width: 960px) {
    body{ max-width: 960px;
     width: 95%;}
     Img#pu{
         min-width: 40px;
     }
+    
 }
 @media  (max-width: 800px){
    html{ background-image: none;}
    body{
-       border-style: none;
+       box-shadow:  none;
     font-size: 90%;
 }
+
 }
 @media  (max-width: 767px){
-   
+    nav#top{
+        display: none
+    }
+    #small{
+        display: block;
+    }
     nav#sidbar{
-     margin-top: 80%;
-     margin-right:50%;
-   
-   
-   
+        display: none;
+    }
+    #bottom{
+        display: block;
     }
     
 }
@@ -200,5 +242,6 @@ p{
     h4{
          font-size: 90%
     }
+    
     
 }
