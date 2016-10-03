@@ -1,0 +1,165 @@
+body{
+    
+font-family: PT Sans Pro,sans-serif 
+
+ }
+ 
+ 
+ a{
+     color: black
+ }
+ 
+ a:hover {
+  
+  color: green ;
+} 
+
+
+
+ .sidbar ul{
+  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+ .sidbar li{
+    margin: 1em 0;
+      
+     border: 1px solid black;
+    width: 200px;
+    background-color: orange;
+
+    
+   }
+
+   .sidbar li a{
+    display: block;
+   
+    padding: 8px 16px;
+    text-decoration: none;
+       
+   }
+   .sidbar li:frist-child{
+       margin-top: 0;
+   
+}
+body {
+   width: 800px;
+   height:  600px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   margin-top: 0;
+   padding-bottom: auto;
+   padding-top: 0;
+  border-style: solid;
+    border-color: black;
+   background-color: white;
+  -moz-box-shadow:    3px 3px 5px 6px black;
+  -webkit-box-shadow: 3px 3px 5px 6px black;
+  box-shadow:         3px 3px 5px 6px black;
+ 
+ }
+ 
+html{
+    
+    background-image: url(../images/bats.gif);
+    background-repeat: repeat;
+    background-color: white
+}
+  
+footer{
+   background: orange; 
+   background: linear-gradient(-45deg, white,orange, black); 
+   border-top: 3px solid black;
+   text-align: center; 
+   margin-top: 180px;
+     
+}
+
+header{
+    background: linear-gradient(-45deg, black,orange, white); 
+    background: orange; 
+    border-bottom:3px solid black;
+}
+
+p,
+h4,
+h2{
+    margin-left: 200px;
+    margin-right: 10px;
+    }
+
+nav#sidbar{
+    float:left;
+    width :160px;
+    display: block;
+    
+    }
+nav#top{
+   
+    display: inline;
+    border-top: 3px solid black;
+    border-bottom:3px solid black;   
+    float: top;
+    
+    }
+    
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.topper ul{
+   
+     display: inline;
+    
+}
+.topper li {
+    float: left;
+     background-color: black;
+    width: 20%;
+       display: inline;  
+}
+
+.topper li a {
+    display: block;
+    color: white;
+   text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+}
+
+section#catright{
+    float: right;
+ width: 180px;
+  background-color: #F5DEB3;
+    
+}
+
+b#h{
+    color:orange;
+}
+p{
+    margin-bottom: 0px;
+}
+h1{
+    margin-top: 0px;
+    
+}
+p#pad{
+    padding-bottom: 140px;
+}
+p#form{
+    float:left;
+    text-align: right;
+    padding-right: 40px;
+    margin-left: 10px;
+    padding-left: 0px;
+   
+}
