@@ -44,19 +44,20 @@
    
         <h2> Please enter the following information </h2>
        
-        <form action="goelon" method="post">
-        
+        <form action="goelon"  method="post">
+             <input type="hidden" name="action" value="add">
+
     <!form  action="subscribe.html"> 
             
               
         <p id="form">
             
             <label>First Name:</label>    
-                <input name="name" type="text"   autofocus required >
-               
+                <input name="firstname" type="text"   autofocus required >
+                   
                 <br>
                  Last Name:
-                <input name="name" type="text"    autofocus required >
+                <input name="lastname" type="text"   autofocus required >
                 <br>
              
                 Email:
@@ -64,7 +65,7 @@
                 <br>
               
                 Zip code:
-                <input name="Zip Code" pattern="[1-9]{9}"    title="Your zip code">
+                <input name="zipcode" pattern="[1-9]{9}"    title="Your zip code">
                 <br>
               <input type="submit" value="Subscribe" name="subscribe"  >
         </p>
